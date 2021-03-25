@@ -1,0 +1,33 @@
+
+.image {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.img-wrapper {
+  position: relative;
+  padding-bottom: 60px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 400px;
+    height: 500px;
+    border: 9px solid $orange;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .img-wrapper {
+    padding-bottom: 0;
+
+  }
+}

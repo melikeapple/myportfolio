@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+//Base
+@import "base/functions/index";
+@import "base/mixins/index";
+@import "~bootstrap/scss/functions";
+
+//Variables
+@import "base/variables.base";
+
+@import "base/utilities/index";
+
+@import "components/variables.bootstrap";
+
+// Framework Includes
+@import "~bootstrap/scss/bootstrap";
+
+
+@import "components/init";
+
+html, body {
+  font-family: 'Lato', sans-serif;
+}

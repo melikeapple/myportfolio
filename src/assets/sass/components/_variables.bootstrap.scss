@@ -1,0 +1,141 @@
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      'Lato', sans-serif;
+$font-family-monospace:       'Lato', sans-serif;
+
+// Spacing
+
+$spacers: (
+        0: 0,
+        1: 2px,
+        2: 4px,
+        3: 6px,
+        4: 8px,
+        5: 10px,
+        6: 12px,
+        7: 16px,
+        8: 24px,
+        9: 30px,
+        10: 32px,
+        11: 34px,
+        12: 36px,
+        13: 39px,
+);
+
+// Color system
+
+$white: #fff !default;
+$lightgrey: #ecede7 !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$light-black: #0B071E !default;
+$black: #000 !default;
+
+$grays: (
+        "100": $gray-100,
+        "200": $gray-200,
+        "300": $gray-300,
+        "400": $gray-400,
+        "500": $gray-500,
+        "600": $gray-600,
+        "700": $gray-700,
+        "800": $gray-800,
+        "900": $gray-900
+) !default;
+// Colors
+
+$blue: #4e71ba !default;
+$darkblue: #37384D !default;
+$lightblack: #0B071E !default;
+$lightblue: #1193FA !default;
+$slateblue: #6A5ACD !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$lightpurple: #985ad9 !default;
+$bluepurple: #262642 !default;
+$darkbluepurple: #1e1e36 !default;
+$pink: #d63384 !default;
+$red: #E22A36 !default;
+$orange: #e4694f !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #38d49e !default;
+$cyan: #0dcaf0 !default;
+$turquoise: #48d1cc !default;
+$lightgrey: #ecede7 !default;
+
+// scss-docs-start colors-map
+$colors: (
+        "blue": $blue,
+        "lightblue": $lightblue,
+        "lightblack": $lightblack,
+        "darkblue": $darkblue,
+        "slateblue":$slateblue,
+        "indigo": $indigo,
+        "purple": $purple,
+        "lightpurple":$lightpurple,
+        "bluepurple":$bluepurple,
+        "darkbluepurple":$darkbluepurple,
+        "pink": $pink,
+        "red": $red,
+        "lightred": $lightred,
+        "turquoise":$turquoise,
+        "orange": $orange,
+        "yellow": $yellow,
+        "green": $green,
+        "teal": $teal,
+        "cyan": $cyan,
+        "white": $white,
+        "lightgrey":$lightgrey,
+        "gray": $gray-600,
+        "gray-dark": $gray-800
+) !default;
+// scss-docs-end colors-map
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$teal: $teal !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$orange: $orange !default;
+$darkblue: $darkblue !default;
+$lightblack: $lightblack !default;
+$lightblue: $lightblue !default;
+$lightpurple: $lightpurple !default;
+$bluepurple: $bluepurple !default;
+$darkbluepurple: $darkbluepurple !default;
+$light: $gray-100 !default;
+$lightgrey: $lightgrey !default;
+$dark: $gray-900 !default;
+
+$theme-colors: (
+        "primary": $primary,
+        "lightblue": $lightblue,
+        "lightblack": $lightblack,
+        "darkblue":$darkblue,
+        "secondary": $secondary,
+        "purple": $purple,
+        "teal": $teal,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "orange": $orange,
+        "lightpurple":$lightpurple,
+        "bluepurple":$bluepurple,
+        "darkbluepurple":$darkbluepurple,
+        "slateblue":$slateblue,
+        "light": $light,
+        "lightgrey":$lightgrey,
+        "dark": $dark
+) !default;
+
+
