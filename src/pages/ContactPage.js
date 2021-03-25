@@ -3,17 +3,19 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import PhoneEnabledIcon from "@material-ui/icons/PhoneEnabled";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import Header from "../partials/content/Header";
 
 const ContactPage = () => {
   return (
     <>
-      <div className="section">
+      <Header />
+
+      <div className="section min-vh-100">
         <div className="section-title">Let's Talk!</div>
         <Container>
           <Row>
             <Col lg={4} md={6} className="pb-9 pb-md-0">
               <div className="text-center">
-                {" "}
                 <PhoneEnabledIcon
                   className="text-orange mb-3"
                   style={{ fontSize: 40 }}

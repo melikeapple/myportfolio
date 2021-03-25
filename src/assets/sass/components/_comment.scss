@@ -1,0 +1,11 @@
+.comment {
+  padding: 0.75rem 0.50rem;
+  &-img {
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 1px solid get($colors,lightgrey);
+    border-radius: 50%;
+  }
+}

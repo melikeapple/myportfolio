@@ -4,10 +4,12 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
+import Header from "../partials/content/Header";
 
 const AboutPage = () => {
   return (
     <>
+      <Header />
       <div className="section">
         <div className="section-title">About Me</div>
         <Container>
